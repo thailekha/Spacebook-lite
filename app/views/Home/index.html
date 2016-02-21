@@ -1,0 +1,12 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+#{set header:'The Spacebook Social Network' /}
+
+<nav class="ui inverted blue menu">
+  <a class="ui active item" href="/home">Home</a>
+  <a class="ui item" href="/logout">Logout</a>
+</nav>
+
+<section id="section" class="ui segment">
+  <h2 class="ui inverted header">SpaceBook: Home Page for ${user.firstName} ${user.lastName}</h2>
+</section>
